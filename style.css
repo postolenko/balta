@@ -201,11 +201,16 @@ a:active {
     font-size: 36px;
     line-height: 40px;
     font-weight: 700;
-    color: #c21727;
+    color: #c41e26;
+}
+
+.title_desc {
+    max-width: 857px;
+    margin: 0 auto;
+    padding: 8px 0;
 }
 
 .h_wrapp p {
-    padding: 8px 0;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
@@ -224,7 +229,7 @@ a:active {
     display: block;
     width: calc(33.33% - 30px);
     margin: 15px;
-    border: 1px solid #f4f4f4;
+    border: 1px solid rgb(213, 213, 213);
     -webkit-transition-property: box-shadow;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
@@ -247,9 +252,9 @@ a:active {
 }
 
 .thumb:hover {
-    -webkit-box-shadow: 0 4px 12px 0 rgba(0,0,0,.3);
-    -moz-box-shadow: 0 4px 12px 0 rgba(0,0,0,.3);
-    box-shadow: 0 4px 12px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 3px 20.16px .84px rgba(0, 0, 0, .27);
+    -moz-box-shadow: 0 3px 20.16px .84px rgba(0, 0, 0, .27);
+    box-shadow: 0 3px 20.16px .84px rgba(0, 0, 0, .27);
 }
 
 .thumb .img_box {
@@ -297,7 +302,7 @@ a:active {
 }
 
 .thumb:hover .descript {
-    background-color: #c21b2b;
+    background-color: rgb(194, 27, 43);
 }
 
 .thumb .title_wrapp {
