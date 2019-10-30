@@ -1,11 +1,4 @@
 @charset "utf-8";
-
-/*------------------*/
-/*-- Fonts --*/
-/*------------------*/
-
-
-
 /*-------------------------------------------*/
 /* BASIC SETUP */
 /*-------------------------------------------*/
@@ -157,26 +150,6 @@ section {
     padding: 10px 0;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-p {
-
-}
-
 a {
     text-decoration: none;
 }
@@ -199,22 +172,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -228,12 +185,6 @@ textarea:focus {
 .overflow_wrapp {
     overflow: hidden;
 }
-
-/*-------------------------------------------*/
-/* ----- HEADER ------ */
-/*-------------------------------------------*/
-
-
 
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
@@ -374,7 +325,7 @@ textarea:focus {
 .thumb .table {
     display: table;
     width: 100%;
-    /*border-collapse: collapse;*/
+    border-collapse: collapse;
 }
 
 .thumb .table_row {
